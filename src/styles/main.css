@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-paint: #090909;
+    --fill: #121212;
+    --color-main: #AAA;
+    --color-second: #FFF;
+}
+
+body {
+    padding: 0 3vh;
+    background-color: var(--background-paint);
+    color: var(--color-main);   
+    font-family: sans-serif;
+}

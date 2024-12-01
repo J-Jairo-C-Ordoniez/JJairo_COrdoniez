@@ -1,0 +1,157 @@
+header {
+    display: flex;
+    position: sticky;
+    background-color: transparent;
+    padding: 1vh;
+    backdrop-filter: blur(10px);
+    top: 0;
+    z-index: 100;
+    transition: all.3s;
+    opacity: 0;
+    animation: opacityHeader 4s 1 ease-in;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+.port-headerContent {
+    display: inherit;
+    align-items: center;
+    gap: max(2vh, 4vh);
+    padding: 2vh 0;
+    max-width: 30%;
+    min-width: 25%;
+}
+
+:root {
+    --linear-background: linear-gradient(90deg, #14012a, #090909);
+    --fill-main: blueviolet;
+}
+
+/* ---------------- Logo and Name ----------------*/
+
+.port-headerContentLogo {
+    width: 4vh;
+    height: 4vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    transform: rotate(45deg);
+    background: var(--linear-background);
+    box-shadow: 0 0 .8vh .1vh rgb(80, 2, 152);
+    animation: animateLogo 2s infinite ease-in-out;
+}
+
+.port-headerContent h2 {
+    font-size: min(1rem, 1.6rem);
+}
+
+.port-headerContent h2 strong {
+    color: var(--fill-main);
+}
+
+/* ---------------- Menu navigator ----------------*/
+
+.port-headerMenu {
+    min-width: 55%;
+    max-width: 55%;
+    margin: auto 0;
+}
+
+.port-headerMenuNav {
+    display: flex;
+    gap: 4vh;
+}
+
+.port-headerMenuNav a {
+    text-decoration: none;
+    font-size: .9rem;
+    color: #777;
+    margin: auto;
+}
+
+.port-headerMenuNav a:hover {
+    color: #FFF;
+    box-shadow: 0 0 4vh 1vh blueviolet;
+    background-color: rgba(137, 43, 226, 0.533);
+    border-radius: 50%;
+}
+
+/* ---------------- Theme Light or Dark ----------------*/
+
+.port-headerTheme {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.port-headerThemeBtn {
+    min-width: 6vh;
+    min-height: 3vh;
+    background: none;
+    border-radius: 2vh;
+    border: .2vh solid rgb(53, 2, 102);
+}
+
+.port-headerThemeBtnClick {
+    width: 3.5vh;
+    height: 3.5vh;
+    background: none;
+    position: relative;
+    left: 50%;
+    border-radius: 100%;
+    border: .2vh solid;
+    border-color: var(--fill-main);
+    background: var(--linear-background);
+    box-shadow: 0 0 1vh .1vh blueviolet;
+    cursor: pointer;
+}
+
+/* ---------------- Animation ----------------*/
+
+@keyframes animateLogo {
+    0% {
+        transform: rotate(45deg);
+        box-shadow: 0 0 1vh .1vh rgb(132, 0, 255);
+
+    }
+
+    50% {
+        transform: rotate(-125deg);
+        box-shadow: 0 0 2vh .1vh rgb(255, 255, 255);
+    }
+
+    100% {
+        transform: rotate(-225deg);
+        box-shadow: 0 0 1vh .1vh red;
+    }
+}
+
+@keyframes opacityHeader {
+    0% {
+        opacity: 1;
+
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* ---------------- MediaQuerys ----------------*/
+
+/* Screen > 768px AND < 1023px*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .port-headerMenuNav a,
+    .port-headerContent h2 {
+        font-size: .8rem;
+    }
+
+}
