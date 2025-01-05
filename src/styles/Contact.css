@@ -1,0 +1,94 @@
+input,
+textarea {
+    margin-top: 1vw;
+    padding: 1vw;
+    border-radius: .6vw;
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: #ffffff60;
+    font-family: sans-serif;
+    width: 100%;
+    color: #aaa;
+    resize: none;
+}
+
+textarea {
+    margin-top: .6vw;
+    height: 10vw;
+}
+
+input:focus,
+textarea:focus {
+    color: #333;
+    border: .1vw solid #ffffffc8;
+    background-color: #ffffffc8;
+}
+
+input[type="email"]:valid {
+    border: .1vw solid green;
+}
+
+input[type="email"]:invalid {
+    border: .1vw solid rgba(255, 0, 0, 0.068);
+}
+
+input[type="submit"] {
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    margin: auto;
+    background: linear-gradient(#bc9a81, #f2b9b9);
+    color: #555;
+    cursor: pointer;
+    border-radius: .6vw;
+    transition: all.4s;
+    font-weight: 600;
+    margin-top: .4vw;
+}
+
+input[type="submit"]:hover {
+    animation: hoverButtons 1s infinite ease-in-out;
+}
+/* 
+@media (min-width: 1921px) {
+
+    input,
+    textarea {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 2100px) AND (min-width:1921px) {
+    input,
+    textarea {
+        font-size: 1.3rem;
+    }
+
+    textarea {
+        height: 12vw;
+    }
+}
+
+@media (max-width: 1920px) AND (min-width:1661px) {
+
+    input,
+    textarea {
+        font-size: 1.3rem;
+    }
+
+    textarea {
+        height: 15vw;
+    }
+}
+
+@media (max-width: 1960px) AND (min-width:1441px) {
+    input,
+    textarea {
+        font-size: 1.1rem;
+        padding: 1.4vw 1.2vw;
+    }
+
+    textarea {
+        height: 12vw;
+    }
+} */

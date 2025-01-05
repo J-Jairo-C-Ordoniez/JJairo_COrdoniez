@@ -1,0 +1,74 @@
+.port-projectCard {
+    border-radius: 1vw;
+    width: 24%;
+    height: 75%;
+    background-color: #ffffff6b;
+    transition: all.2s;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+.port-projectCard:hover {
+    background-color: #f6f6f6;
+}
+
+.port-projectCardImg {
+    width: 100%;
+    height: 40%;
+    border-radius: .6vw;
+}
+
+.port-projectCardImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: .6vw;
+    object-fit: cover;
+}
+
+.port-projectCard h3 {
+    color: #444;
+    font-weight: 800;
+    margin: .6vw 0;
+    transition: all.2s;
+    height: 8%;
+}
+
+.port-projectCard p {
+    color: #444;
+    transition: all.2s;
+    margin: .6vw 0;
+    height: 25%;
+}
+
+.port-projectCardTecnologis {
+    height: 5%;
+}
+
+.port-projectCardTecnologis p {
+    font-size: .8rem;
+}
+
+.port-projectsRedes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+/* 
+@media (min-width: 1921px) {
+
+    .port-projectCard {
+        height: 70%;
+    }
+    
+    .port-projectCard h3 {
+        font-size: 2rem;
+    }
+    
+    .port-projectCard p {
+        font-size: 1.8rem;
+    }
+    
+    .port-projectCardTecnologis p {
+        font-size: 1.5rem;
+    }
+} */

@@ -1,0 +1,37 @@
+p.port-tecnologis {
+    display: inline;
+    color: rgb(167, 0, 84);
+    font-weight: bold;
+}
+
+p.port-tecnologis:first-child {
+    color: rgb(4, 77, 38);
+}
+
+p.port-tecnologis:nth-child(2){
+    color: rgb(22, 77, 215);
+}
+
+p.port-tecnologis:nth-child(3){
+    color: rgb(168, 124, 3);
+}
+
+p.port-tecnologis:nth-child(4){
+    color: rgb(213, 0, 0);
+}
+
+p.port-tecnologis:nth-child(5){
+    color: rgb(166, 0, 149);
+}
+
+p.port-tecnologis:nth-child(6){
+    color: rgb(1, 114, 126);
+}
+
+p.port-tecnologis:nth-child(7){
+    color: rgb(102, 155, 10);
+}
+
+p.port-tecnologis:nth-child(8){
+    color: rgb(126, 1, 1);
+}

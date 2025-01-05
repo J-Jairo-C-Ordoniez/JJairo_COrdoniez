@@ -1,0 +1,62 @@
+.port-services  {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    padding: 2vw;
+}
+
+.port-services h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.port-services div {
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    border-radius: .4vw;
+    background-color: #d6d6da71;
+}
+
+.port-services div:nth-child(even) {
+    background-color: #e5e5ea;
+}
+
+.port-serviceId {
+    width: 10%;
+    font-weight: bold;
+    color: #555;
+}
+
+.port-serviceTitle {
+    width: 40%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.port-serviceDescription {
+    color: #555;
+    width: 50%;
+}
+
+@media (min-width: 1921px) {
+
+    .port-services h2 {
+        font-size: 3rem;
+    }
+    
+    .port-serviceId {
+        font-size: 1.8rem;
+    }
+    
+    .port-serviceTitle {
+        font-size: 2.2rem;
+    }
+    
+    .port-serviceDescription {
+        font-size: 1.8rem;
+    }
+}

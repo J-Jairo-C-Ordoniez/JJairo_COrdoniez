@@ -1,0 +1,270 @@
+.port-home {
+    height: 100%;
+    padding: 2vw;
+    background: linear-gradient(#e5e5ea, #d6adadb7, #e5e5ea);
+}
+
+.port-homeCardMain {
+    padding: 6vw;
+    width: 80%;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.port-homeCardMain h2 {
+    margin-bottom: .6vw;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.port-homeCardMain h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    width: 60%;
+    margin: auto;
+    padding: 0 0 2vw;
+    font-weight: normal;
+}
+
+.port-homeCardMain h1 strong {
+    color: #555;
+    font-weight: 600;
+}
+
+.port-linkCTA {
+    display: block;
+    width: fit-content;
+    background-image: linear-gradient(#bc9a81, #f2b9b9);
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    text-decoration: none;
+    transition: all.4s;
+    margin: 0 auto;
+    font-weight: 600;
+    box-shadow: 0 0 .4vw #00000055;
+}
+
+.port-linkCTA:hover {
+    animation: hoverButtons 1s infinite ease-in-out;
+}
+
+.port-homeCardImgs {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    height: 60%;
+}
+
+.port-homeCardImgs div:nth-child(2) {
+    width: 20%;
+}
+
+.port-homeCardImgs div:first-child,
+.port-homeCardImgs div:last-child {
+    border-radius: 1vw;
+    width: 24%;
+    height: 100%;
+    background-color: #ffffff3c;
+    transition: all.2s;
+    padding: 1vw;
+    cursor: pointer;
+    box-shadow: 0 0 1vw #a2a2a218;
+}
+
+.port-homeCardImgs div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+    height: 40%;
+}
+
+.port-homeCardImgs div:first-child h3,
+.port-homeCardImgs div:last-child h3 {
+    color: #333;
+    width: 100%;
+    font-weight: 800;
+    border-bottom: .1vw solid #aaa;
+    padding: 0 0 1vw 0;
+}
+
+.port-homeCardImgs div:first-child p {
+    cursor: pointer;
+    color: #444;
+    text-align: center;
+    width: 30%;
+    padding: 1vw 0;
+    border-bottom: .2vw solid #d6adad8d;
+    font-size: .9rem;
+}
+
+.port-homeCardImgs div:first-child p strong {
+    color: #333;
+    font-size: 1rem;
+}
+
+.port-homeCardImgs div:first-child span:hover {
+    background-color: #ffffffe8;
+}
+
+
+@keyframes hoverButtons {
+    0% {
+        background-size: 400% 400%;
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-size: 400% 400%;
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-size: 400% 400%;
+        background-position: 0% 50%;
+    }
+}
+/* 
+@media (min-width: 2101px) {
+
+    .port-homeCardMain h2 {
+        font-size: 4rem;
+    }
+
+    .port-homeCardMain h1 {
+        width: 70%;
+        font-size: 1.9rem;
+    }
+
+    .port-linkCTA {
+        font-size: 1.5rem;
+    }
+
+    .port-homeCardImgs div:last-child h3 {
+        font-size: 1.6rem;
+    }
+
+    .port-homeCardImgs div:first-child p {
+        font-size: 1.4rem;
+    }
+
+    .port-homeCardImgs div:first-child p strong {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 2100px) AND (min-width:1921px) {
+    .port-homeCardMain h2 {
+        font-size: 4rem;
+    }
+
+    .port-homeCardMain h1 {
+        font-size: 1.8rem;
+        width: 80%;
+    }
+
+    .port-linkCTA {
+        font-size: 1.5rem;
+    }
+
+    .port-homeCardImgs div:last-child h3 {
+        font-size: 1.6rem;
+    }
+
+    .port-homeCardImgs div:first-child p {
+        font-size: 1.3rem;
+    }
+
+    .port-homeCardImgs div:first-child p strong {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1920px) AND (min-width:1661px) {
+    .port-homeCardMain h2 {
+        font-size: 3.4rem;
+    }
+
+    .port-homeCardMain h1 {
+        width: 80%;
+        font-size: 1.6rem;
+    }
+
+    .port-linkCTA {
+        font-size: 1.4rem;
+    }
+
+    .port-homeCardImgs div:nth-child(2) {
+        width: 25%;
+    }
+
+    .port-homeCardImgs div:first-child,
+    .port-homeCardImgs div:last-child {
+        width: 30%;
+    }
+
+    .port-homeCardImgs div:last-child h3 {
+        font-size: 1.5rem;
+    }
+
+    .port-homeCardImgs div:first-child p {
+        font-size: 1.4rem;
+    }
+
+    .port-homeCardImgs div:first-child p strong {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1960px) AND (min-width:1441px) {
+
+    .port-homeCardMain {
+        height: 40%;
+        width: 90%;
+    }
+
+    .port-homeCardMain h2 {
+        font-size: 3rem;
+    }
+
+    .port-homeCardMain h1 {
+        width: 70%;
+        font-size: 1.4rem;
+    }
+
+    .port-linkCTA {
+        font-size: 1.1rem;
+    }
+
+    .port-homeCardImgs div:nth-child(2) {
+        width: 28%;
+    }
+
+    .port-homeCardImgs div:first-child,
+    .port-homeCardImgs div:last-child {
+        width: 30%;
+    }
+
+    .port-homeCardImgs div:last-child h3 {
+        font-size: 1.4rem;
+    }
+
+    .port-homeCardImgs div:first-child p {
+        font-size: 1.1rem;
+    }
+
+    .port-homeCardImgs div:first-child p strong {
+        font-size: 1.3rem;
+    }
+} */

@@ -1,0 +1,23 @@
+.port-skills {
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(#e5e5ea, #d6adadb7, #e5e5ea);
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.port-skills h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 1921px) {
+    .port-skills h2 {
+        font-size: 3rem;
+    }
+}

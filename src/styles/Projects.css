@@ -1,0 +1,11 @@
+.port-project {
+    overflow: auto;
+    height: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+    background: linear-gradient(#e5e5ea, #d6adadb7, #e5e5ea);
+}

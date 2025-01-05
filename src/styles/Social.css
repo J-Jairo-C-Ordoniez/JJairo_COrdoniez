@@ -1,0 +1,11 @@
+.port-linkCard  img {
+    width: 2vw;
+    height: 2vw;
+    margin: auto;
+    transition: all.2s;
+}
+
+.port-linkCard img:hover {
+    box-shadow: 0 0 1vw .3vw #8b32ff91, inset 0 0 1vw .4vw #8b32ff;
+    transform: scale(1.2);
+}

@@ -1,0 +1,75 @@
+.port-abaut {
+    height: 100%;
+    padding: 1vw 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.port-abaut h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+}
+
+.port-abautPoster {
+    box-shadow: 0 0 1vw .1vw #00000038;
+    width: 30%;
+    height: 80%;
+    border-radius: 1vw;
+}
+
+.port-abautPoster img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.port-abautText {
+    width: 40%;
+    color: #333;
+    font-size: 1rem;
+}
+
+.port-abautSocial {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+    padding: 2vw 0;
+}
+
+.port-abautSoftSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .4vw;
+    cursor: pointer;
+}
+
+.port-abaut h4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 1vw 0;
+}
+/* 
+@media (min-width: 1921px) {
+    
+    .port-abaut h2 {
+        font-size: 3rem;
+    }
+    
+    .port-abautPoster {
+        width: 30%;
+    }
+    
+    .port-abautText {
+        font-size: 1.8rem;
+    }
+    
+    .port-abaut h4 {
+        font-size: 2.2rem;
+    }
+} */

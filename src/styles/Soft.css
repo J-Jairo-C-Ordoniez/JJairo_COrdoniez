@@ -1,0 +1,69 @@
+.port-skillsSoft {
+    width: 48%;
+    padding: 1.2vw 1vw;
+    border-radius: 1vw;
+    background-color: #5F4E4A;
+    transition: all.2s;
+    box-shadow: 0 0 .6vw #0000003d;
+}
+
+.port-skillsSoft h3 {
+    font-size: .9rem;
+    color: #aaa;
+}
+
+.port-skillsSoft p {
+    display: none;
+}
+
+.port-skillsSoft p {
+    display: none;
+    position: absolute;
+    bottom: 6vh;
+    width: 20%;
+    right: 60vw;
+    padding: 1vw;
+    border-radius: .6vw;
+    background-color: #5F4E4A;
+    color: #aaa;
+    transition: all.4s;
+    text-align: center;
+}
+
+.port-skillsSoft:hover {
+    color: #333;
+    background-color: #333;
+}
+
+.port-skillsSoft:first-child:hover  p {
+    display: block;
+}
+
+.port-skillsSoft:nth-child(2):hover  p {
+    display: block;
+}
+
+.port-skillsSoft:nth-child(3):hover  p {
+    display: block;
+}
+
+.port-skillsSoft:nth-child(4):hover  p {
+    display: block;
+}
+
+.port-skillsSoft:last-child:hover  p {
+    display: block;
+}/* 
+
+@media (min-width: 1921px) {
+
+    .port-skillsSoft h3 {
+        font-size: 1.6rem;
+    }
+    
+    .port-skillsSoft p {
+        width: 21%;
+        right: 58vw;
+        font-weight: 700;
+    }
+} */

@@ -1,0 +1,52 @@
+.port-LogoContent {
+    width: 3%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.port-Logo {
+    width: 1.8vw;
+    height: 1.8vw;
+    transform: rotate(45deg);
+    background-color: #333;
+    border-radius: .4vw;
+    box-shadow: .4vw .4vw .1vw #99999990;
+    cursor: pointer;
+}
+
+.port-Logo:hover {
+    animation: logo 1s infinite ease-in-out;
+}
+
+@keyframes logo {
+    0% {
+        background-color: #444;
+    }
+
+    50% {
+        background-color: #999;
+    }
+
+    100% {
+        background-color: #444;
+    }
+}
+/* 
+
+@media (min-width: 1921px) {
+    
+    .port-Logo {
+        width: 1.6vw;
+        height: 1.6vw;
+        border-radius: .4vw;
+    } 
+}
+
+@media (max-width: 1960px) AND (min-width:1441px) {
+    .port-Logo {
+        width: 2vw;
+        height: 2vw;
+        border-radius: .5vw;
+    } 
+} */

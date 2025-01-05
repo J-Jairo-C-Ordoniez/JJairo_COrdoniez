@@ -1,9 +1,8 @@
 export default async function getData () {
     try {
-        let response = await fetch ('dates.json')
-        let data = await response.json()
-        return data
+        let response = await fetch('data.json');
+        return await response.json();
     } catch (err) {
-        console.log(err)
+        throw({ status: response.status, menssage: 'Error' })
     }
-}
+};

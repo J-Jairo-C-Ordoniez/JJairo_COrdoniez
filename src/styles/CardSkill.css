@@ -1,0 +1,58 @@
+.port-skillsContentMain {
+    align-items: center;
+    width: 24%;
+    box-shadow: 0 0 1vw #33333310;
+    border-radius: 1vw;
+    padding: 1vw;
+    background-color: #ffffff24;
+    height: 75%;
+    cursor: pointer;
+}
+
+.port-skillsContentMain:hover {
+    background-color: #ffffff9a;
+}
+
+.port-skillsContentMain div:first-child {
+    height: 16%;
+    padding: 1vw;
+}
+
+.port-skillsContentMain div:first-child img {
+    width: 3vw;
+    height: 3vw;
+    margin: auto;
+    object-fit: cover;
+}
+
+.port-skillsContentMain div:last-child h4 {
+    color: #444;
+    font-weight: 800;
+    margin: 1vw 0;
+    transition: all.2s;
+}
+
+.port-skillsContentMain div:last-child div p {
+    margin: 1vw 0;
+    font-size: .9rem;
+}
+
+.port-skillDescription {
+    font-size: 1rem;
+    margin: 2vw 0;
+}
+/* 
+@media (min-width: 1921px) {
+    
+    .port-skillsContentMain div:last-child h4 {
+        font-size: 2.2rem;
+    }
+    
+    .port-skillsContentMain div:last-child div p {
+        font-size: 1.5em;
+    }
+    
+    .port-skillDescription {
+        font-size: 1.8rem;
+    }
+} */
